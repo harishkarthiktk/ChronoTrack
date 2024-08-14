@@ -6,4 +6,5 @@ These list of features are for my own reference and I will start building these 
 1) Product for tracking; with categories added later.
 2) Date stamped Item add; where the item will be an object of the product.
 3) Display the items chronologically as a list; and expand this to show in a calendar view.
-4) Some form of calendar integration for export/import functionalities.
+4) Some form of calendar integration for export/import functionalities for viewing.
+5) User logins for multiple people to login and use the system from their own compartmentalized systems. 
