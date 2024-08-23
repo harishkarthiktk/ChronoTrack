@@ -1,0 +1,26 @@
+{%extends "add_row.html"%}
+
+{% block table %}
+<div class="container col-m-9 col-10">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Date</th>
+            <th scope="col">Entry by</th> 
+          </tr>
+        </thead>
+        <tbody>
+          {% for item in items %}
+          <tr>
+            <th scope="row">{{ item }}</th>
+            <td>{{ items[item] }}</td>
+            <td>Meena</td>
+            <td><button type="button" class="btn btn-warning btn-sm float-end">Delete</button></td> 
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+</div>
+
+{% endblock %}

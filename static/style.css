@@ -1,0 +1,19 @@
+.col-10 {
+    border-radius: 10px;
+}
+
+.col-9 {
+    border-radius: 10px;
+}
+
+.date-stamp {
+    font-size: small;
+}
+
+.title {
+    font-size: larger;
+}
+
+.title-menu {
+    font-size: x-large;
+}

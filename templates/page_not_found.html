@@ -1,0 +1,13 @@
+{% extends "base_page.html" %}
+
+{% block page_not_found %} 
+<div class="row py-1">
+    <div class="col"></div>
+    <div class="col-10 col-lg-10 bg-light py-3 border" style="margin-top: 20px;">
+        Page not found, please go back <button onclick="window.location.href='http://localhost:8080/';" type="button" class="btn btn-warning float-end">Back</button> </br>
+        <!-- the redirection return here is bound directly to a static url, have to change it to the bound ipaddress/domain with dynamic routing -->
+    </div>
+    <div class="col"></div>
+</div>
+
+{% endblock %}
